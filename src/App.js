@@ -22,8 +22,8 @@ import LifeCycleA from './Component/lifeCycleA';
 import Fragment from './Component/Fragment';
 import Table from './Component/table';
 import Maps from './Component/Map';
+import Parent from "./Component/Parent"
 //import MapWrapper from './Component/Map2';
- 
 function App() {
      return (
        <div className="App">
@@ -70,7 +70,7 @@ function App() {
           <Maps></Maps> 
          <br></br>
          <br></br>
- 
+        <Parent></Parent>
        </div>
      );
 }
